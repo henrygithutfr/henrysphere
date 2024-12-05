@@ -908,7 +908,11 @@ footer .column .logo {
 }
 
 footer .column p {
-    color: #ccc;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    font-size: 1.125rem;
+    line-height: 1.7345rem;
     margin-bottom: 2rem;
 }
 
@@ -919,9 +923,9 @@ footer .column .socials {
 }
 
 footer .column .socials a {
-    color: #ccc;
-    border: 1px solid #ccc;
-    padding: 5px 10px;
+    color: #007BFF;
+    border: 3px solid #007BFF;
+    padding: 5px 8px;
     font-size: 1.25rem;
     border-radius: 100%;
     transition: all 0.3s ease;
@@ -934,15 +938,27 @@ footer .column .socials a:hover {
 }
 
 footer .column h4 {
-    color: #fff;
-    margin-bottom: 2rem;
-    font-size: 1.2rem;
-    font-weight: 500;
+    color: #000;
+    margin: 3rem 0rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 3rem;
+    font-family: "Alegreya", serif;
+    text-align: start;
+    text-decoration: none;
 }
 
 footer .column>a {
     display: block;
-    color: #ccc;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    font-size: 1.125rem;
+    line-height: 1.7345rem;
     margin-bottom: 1rem;
     transition: all 0.3s ease;
 }
@@ -955,7 +971,11 @@ footer .column>a:hover {
     max-width: 1200px;
     margin: auto;
     padding: 1rem;
-    color: #fff;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    font-size: 1.125rem;
+    line-height: 1.7345rem;
     font-size: 0.8rem;
     text-align: center;
 }
@@ -1017,6 +1037,10 @@ footer .column>a:hover {
 
     .pricing {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main_blog_container{
+        zoom: 60%;
     }
 
     footer {
