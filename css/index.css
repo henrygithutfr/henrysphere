@@ -255,6 +255,11 @@ header .image img {
     letter-spacing: -0.04em;
     font-size: 1.525rem;
     line-height: 1.7345rem;
+    transition: 0.2s ease;
+}
+
+.about_desc a:hover {
+    font-size: 1.7rem;
 }
 
 .about_desc a:hover i {
@@ -405,12 +410,16 @@ header .image img {
     display: inline-block;
     margin-top: 2rem;
     color: #27272a;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: -0.04em;
     font-size: 1.325rem;
     line-height: 2rem;
+    transition: 0.2s ease;
 }
 
+.features .card a:hover{
+    font-size: 1.5rem;
+}
 
 .features .card a:hover i {
     margin-left: 1rem;
@@ -424,12 +433,124 @@ header .image img {
 }
 
 
+.content h2 {
+    color: #000;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    line-height: 3rem;
+    font-family: "Alegreya", serif;
+    text-align: start;
+}
+
+.content h2 a {
+    -webkit-text-fill-color: #000;
+    -webkit-text-stroke: 2px transparent;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    line-height: 7rem;
+    font-family: "Alegreya", serif;
+    font-size: 5rem;
+    text-decoration: underline;
+}
+
+.content h2 a:hover {
+    text-decoration: none;
+}
+
 
 .blogs {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+}
+
+.blogs .blog{
+    background-color: #EAF6FF;
+    padding: 3rem;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.blogs .blog:hover{
+    transform: translateY(-5%);
+    box-shadow: 0 50px 80px -15px rgba(208, 215, 224, 0.65);
+    background-color: #a8d6f8;
+}
+
+.blogs .blog:hover h2{
+    color: #000;
+}
+
+.blogs .blog img{
+    width: 100%;
+}
+
+.blogs .blog h2{
+    color: #000;
+    margin: 3rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 3rem;
+    font-family: "Alegreya", serif;
+    text-align: start;
+    text-decoration: none;
+}
+
+.blogs .blog p{
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    font-size: 1.125rem;
+    line-height: 1.7345rem;
+}
+
+.blogs .blog div{
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogs .blog .blog_btn span{
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    font-size: 1.525rem;
+    line-height: 1.7345rem;
+    transition: 0.2s ease;
+}
+
+.blogs .blog .blog_btn span:hover{
+    font-size: 1.7rem;
+}
+
+
+.blogs .blog .blog_btn span:hover i{
+    margin-left: 1rem;
+}
+
+.blogs .blog .blog_btn h4{
+    color: #27272a;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 .blogs a:hover h2 {
@@ -455,6 +576,34 @@ header .image img {
     color: #333333;
     font-size: 1rem;
     font-weight: 600;
+}
+
+.page_scroll {
+    width: 100%;
+    background-color: transparent;
+    padding: 4rem;
+}
+
+.page_scroll .page_container {
+    margin: auto;
+    width: max-content;
+    background-color: transparent;
+    display: flex;
+}
+
+.page_scroll .page_container a{
+    padding: 2rem;
+    background-color: transparent;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    font-size: 1.125rem;
+    line-height: 1.7345rem;
+}
+
+.highlight_blog{
+    border-bottom: 5px solid #007BFF;
+    color: #007BFF;
 }
 
 .freelance_container {
